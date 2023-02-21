@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 2022_02_10_225503) do
-
+ 
   create_table "posts", force: :cascade do |t|
     t.string "title"
     t.text "description"
@@ -28,3 +28,4 @@ ActiveRecord::Schema.define(version: 2022_02_10_225503) do
   end
 
 end
+# comment comment comment
