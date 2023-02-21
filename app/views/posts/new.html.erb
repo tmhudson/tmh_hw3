@@ -3,7 +3,7 @@
 <%= form_with :model => @post do |form| %>
   <p>
     <%= form.label "title" %>
-    <%= form.text_field "tile" %>
+    <%= form.text_field "title" %>
   </p>
 
   <p>
@@ -12,8 +12,8 @@
   </p>
 
   <p>
-    <%= form.label "long_description" %>
-    <%= form.text_field "long_description" %>
+    <%= form.label "description" %>
+    <%= form.text_field "description" %>
   </p>
 
     <%= form.hidden_field "place_id" %>
